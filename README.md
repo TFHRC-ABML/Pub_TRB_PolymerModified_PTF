@@ -1,4 +1,4 @@
-# Data and Analysis Code for TRB manuscript
+# Data and Analysis Code for TRB Manuscript
 
 ## Performance Evaluation of Polymer-Modified Asphalt Binders and Mixtures: Insights from FHWA's New Pavement Testing Facility
 
@@ -49,19 +49,19 @@ configuration listed below. However, stable upgraded versions of these libraries
 The dataset is provided as an Excel file, `Data.xlsx`, which contains multiple sheets corresponding to different laboratory tests and material properties:
 
 - **HTPG**: Measured HTPG of tank and recovered binders.
-- **MSCR**: Measured Recovery and non-recoverable creep compliance parameters for tank and recovered binder at 64°C. 
+- **MSCR**: Measured recovery (e.g., $R_{3.2}$) and non-recoverable creep compliance (e.g., $J_{nr,3.2}$) parameters for tank and recovered binder at 64°C. 
 - **Glover-Rowe (G-R)**: |G*| and phase angle values at 44.7 °C and 10 rad/s used to compute the G-R parameter.
 - **Binder Frequency Sweep**: Detailed binder frequency sweep results at different temperatures ranging from 10°C to 82°C and loading frequencies ranging from 0.1 rad/s to 100 rad/s for all the tank and recovered binders at different aging levels.  
-- **DENT**: Results from the DENT test, including Failure energy, maximum load, and ligament properties, which are used to calculate the CTOD.
+- **DENT**: Results from the DENT test, including failure energy, maximum load, and ligament properties, which are used to calculate the CTOD.
 - **DENT Curves**: Force-displacement data of the DENT test for one replicate of tank and recovered binders.
 - **BBR (LTPG)**: Measured S-value and m-values at two pass/fail low temperatures used for calculating the LTPG and ΔTc parameters.  
 - **FTIR**: Calculated Carbonyl and Sulfoxide indices (ICO & ISO) using the deconvolution method for tank and recovered binders at unaged and PAV-aged states. 
 - **Gradation**: As-designed and as-produced gradation of the asphalt mixtures used in different lanes, along with their control points, based on Viriginia DOT specification. 
 - **HWTT**: Summary results of the HWTT tests, including the corrected rut depth, stripping number, SIP, etc. 
-- **HWTT Curves**: Raw rutting data from the Hamburg Wheel Tracking Test for all mixtures at STOA aging condition.
-- **IDEAL-RT**: Summary results of the IDEAL-RT test for all mixtures at STOA aging condition.
-- **IDEAL-CT**: Summary results of the IDEAL-CT test for all mixtures at both STOA and LTOA aging condition.
-- **CF Sapp**: Calculated Sapp values obtained from the cyclic fatigue and dynamic modulus test results for all mixtures at STOA and LTOA aging conditions.  
+- **HWTT Curves**: Raw rutting data from the Hamburg Wheel Tracking Test for all mixtures at STA aging condition.
+- **IDEAL-RT**: Summary results of the IDEAL-RT test for all mixtures at STA aging condition.
+- **IDEAL-CT**: Summary results of the IDEAL-CT test for all mixtures at both STA and LTA aging condition.
+- **CF Sapp**: Calculated Sapp values obtained from the cyclic fatigue and dynamic modulus test results for all mixtures at STA and LTA aging conditions.  
 
 **NOTE**: **Tank binders** refer to the binders collected from the asphalt binder tank in the asphalt plant during the production of the mixtures for construction. However, **recovered binders** refer to the binder extracted and recovered from the loose mixtures sampled right behind the asphalt paver. 
 
